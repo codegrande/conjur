@@ -86,7 +86,7 @@ GEM
     base32-crockford (0.1.0)
     base58 (0.2.3)
     bcrypt-ruby (3.0.1)
-    bindata (2.4.3)
+    bindata (2.4.10)
     bootstrap-sass (3.4.1)
       autoprefixer-rails (>= 5.2.1)
       sassc (>= 2.0.0)
