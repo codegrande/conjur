@@ -208,7 +208,7 @@ GEM
     inflecto (0.0.2)
     iso8601 (0.10.1)
     jaro_winkler (1.5.1)
-    jmespath (1.4.0)
+    jmespath (1.6.1)
     json (2.1.0)
     json-jwt (1.9.4)
       activesupport
