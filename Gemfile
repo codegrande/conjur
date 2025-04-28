@@ -11,10 +11,10 @@ git_source(:github) { |name| "https://github.com/#{name}.git" }
 gem 'command_class'
 gem 'base58'
 gem 'iso8601'
-gem 'nokogiri', '>= 1.8.2'
+gem 'nokogiri', '>= 1.18.8'
 gem 'puma', ' ~> 3.10'
 gem 'rack', '~> 1.6.11'
-gem 'rails', '= 4.2.11'
+gem 'rails', '= 7.0.0'
 gem 'rails-api'
 gem 'rake'
 gem 'sprockets', '~> 3.7.0', '>= 3.7.2'
@@ -53,7 +53,7 @@ gem 'rack-rewrite'
 
 gem 'simplecov', require: false
 
-gem 'sass-rails'
+gem 'sass-rails', '>= 6.0.0'
 gem 'therubyracer'
 gem 'uglifier'
 #gem 'coffee-rails'
