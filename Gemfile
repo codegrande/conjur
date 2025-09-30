@@ -13,15 +13,15 @@ gem 'base58'
 gem 'iso8601'
 gem 'nokogiri', '>= 1.8.2'
 gem 'puma', ' ~> 3.10'
-gem 'rack', '~> 1.6.11'
-gem 'rails', '= 4.2.11'
+gem 'rack', '~> 2.2.18'
+gem 'rails', '= 5.0.0'
 gem 'rails-api'
 gem 'rake'
-gem 'sprockets', '~> 3.7.0', '>= 3.7.2'
+gem 'sprockets', '~> 3.7.3'
 
 gem 'pg'
 gem 'sequel-postgres-schemata', require: false
-gem 'sequel-rails'
+gem 'sequel-rails', '>= 0.9.16'
 
 gem 'activesupport'
 gem 'base32-crockford'
@@ -44,8 +44,8 @@ gem 'ruby_dep', '= 1.3.1'
 gem 'conjur-api', github: 'cyberark/conjur-api-ruby', branch: 'master'
 gem 'conjur-policy-parser', '>= 3.0.3',
   github: 'conjurinc/conjur-policy-parser', branch: 'possum'
-gem 'conjur-rack', '~> 3.1'
-gem 'conjur-rack-heartbeat'
+gem 'conjur-rack', '~> 4.0', '>= 4.0.0'
+gem 'conjur-rack-heartbeat', '>= 2.1.0'
 gem 'rack-rewrite'
 
 # Putting this here currently confuses debify, so instead load it in application.rb
@@ -53,7 +53,7 @@ gem 'rack-rewrite'
 
 gem 'simplecov', require: false
 
-gem 'sass-rails'
+gem 'sass-rails', '>= 5.0.7'
 gem 'therubyracer'
 gem 'uglifier'
 #gem 'coffee-rails'
@@ -75,7 +75,7 @@ gem 'kubeclient'
 gem 'websocket-client-simple'
 
 # authn-oidc
-gem 'openid_connect'
+gem 'openid_connect', '>= 1.1.7'
 
 group :development, :test do
   gem 'aruba'
@@ -95,7 +95,7 @@ group :development, :test do
   gem 'rake_shared_context'
   gem 'rspec'
   gem 'rspec-core', '~> 3.0'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 3.6.0'
   gem 'spring'
   gem 'spring-commands-cucumber'
   gem 'spring-commands-rspec'
